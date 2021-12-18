@@ -1,0 +1,35 @@
+.register{
+    display: flex;
+    height:105vh;
+    margin-left:300px;
+}
+.register img{
+    margin-top: 60px;
+  height:500px;
+}
+.register-button{
+    background-color:red;
+    border: none;
+    color:#fff;
+    border-radius:2px;
+    padding:10px;
+}
+.spinner{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: 50vh;
+    margin-bottom:50vh;
+}
+@media only screen and (max-width:688px){
+    .register{
+        flex-direction: column;
+        height:100%;
+        margin-left:0px;
+    }
+    .register img{
+        margin-top: 50px;
+        width:100%;
+    
+    }
+}

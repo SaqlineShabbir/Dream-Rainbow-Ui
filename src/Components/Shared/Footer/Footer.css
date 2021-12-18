@@ -1,0 +1,42 @@
+.footer-container{
+display: flex;
+background-color:#8000800c;
+padding-inline: 155px;
+padding-top:100px;
+}
+
+.footer-texts{
+    margin-block: 150px;
+    margin-inline: 60px;
+}
+
+.footer-focused{
+   width: 30%;
+}
+.footer-texts h5{
+    margin-bottom: 35px;
+}
+.footer-btn{
+    border: none;
+    background-color:rgb(231, 18, 18);
+    padding:20px;
+    color:white;
+    border-radius: 10px 10px 0px 10px;
+}
+
+
+@media only screen and (max-width:688px){
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        background-color:#8000800c;
+        padding-inline:0px;
+        padding-top:100px;
+        }
+
+        .footer-texts{
+            margin-block: 20px;
+            margin-inline: 20px;
+        }
+
+}

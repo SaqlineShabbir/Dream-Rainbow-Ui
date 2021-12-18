@@ -1,0 +1,24 @@
+.dash-board-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:90vh;
+}
+.dash-board-img img{
+    height:500px;
+    width:600px;
+}
+
+@media only screen and (max-width:688px){
+    .dash-board-home{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:90vh;
+    }
+    .dash-board-img img{
+        height:500px;
+        width:370px;
+    }
+
+}

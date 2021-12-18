@@ -1,0 +1,75 @@
+
+.about-route-main{
+  
+}
+.about-route-banner img{
+     height: 400px;
+     width:200vh;
+}
+.Little-sub{
+    font-size:20px;
+    font-weight:bold;
+    border-bottom: 1px solid rgb(226, 19, 19);
+    width:150px;
+}
+.about-route-content-wrapper{
+    margin-inline:200px;
+}
+.about-route-content-wrapper{
+    display:flex;
+    margin-top:250px;
+}
+.about-route-content-first{
+    padding-right: 50px;
+}
+.first-card{
+    width:500px;
+    border-radius: 10px
+}
+.first-card img{
+    width:250px;
+}
+.first-card-text{
+    padding: 30px;
+}
+.second-card{
+    height:280px;
+    width:240px;
+    padding-inline: 30px;
+    padding-block: 30px;
+    border-radius:10px;
+    margin-top: 30px;
+    
+}
+.view-details{
+    border: none;
+    background-color: white;
+    
+}
+.view-details:hover{
+    border: none;
+    background-color: white;
+    color: rgb(233, 20, 20);
+    margin-right: 30px;
+
+}
+.why-choose-us-main{
+    display: flex;
+    padding-inline: 200px;
+    margin-top: 150px;
+}
+.why-choose-us-right{
+    padding-inline:100px;
+    margin-top:50px;
+}
+.why-choose-us-right-cards{
+    display: flex;
+}
+.why-choose-us-right-card1{
+    height:280px;
+    width:270px;
+    padding-inline: 20px;
+    padding-block: 30px;
+    border-radius:10px;
+    margin-top: 30px;
+}

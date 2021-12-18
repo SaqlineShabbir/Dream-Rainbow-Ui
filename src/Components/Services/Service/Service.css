@@ -1,0 +1,34 @@
+.service-container{
+    height: 450px;
+    width: 346px;
+    margin-top: 50px;
+    border-radius: 10px 10px 10px 0px;
+    
+}
+.service-container img{
+    width: 346px;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+.service-text{
+    padding:20px;
+    color:rgba(0, 33,72);
+    
+}
+
+.service-button{
+    border:none ;
+    background-color:white;
+    margin-left: 20px;
+}
+.service-button:hover{
+    border:none ;
+    color:red;
+    background-color:white;
+    margin-left: 20px;
+    transform: scale(1);
+}
+
+@media only screen and (max-width:688px){
+    
+}

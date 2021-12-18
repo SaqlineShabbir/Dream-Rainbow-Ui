@@ -1,0 +1,44 @@
+.Booking-main{
+    background-color: rgba(107, 0, 128, 0.055);
+}
+.place-order-banner img{
+    width: 1583px;
+    height: 400px;
+}
+
+.booking-details{
+    
+    display:flex;
+    margin-top: 200px;
+    margin-inline:100px ;
+}
+
+.booking-form form{
+    display:flex;
+    flex-direction:column;
+    padding:30px;
+    
+   
+}
+.booking-form{
+    margin-left: 200px;
+    border-radius: 5px;
+    width:1000px;
+}
+.booking-form form input{
+    width:400px;
+    margin: 10px;
+    padding:7px;
+    border: none;
+    background-color: rgba(207, 203, 203, 0.425);
+   
+    border-radius:5px;
+}
+.booking-btn{
+    border:none;
+    background-color:rgb(216, 20, 20);
+    color:white;
+    padding-block: 10px;
+    width:400px;
+    margin-left: 15px;
+}

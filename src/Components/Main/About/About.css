@@ -1,0 +1,115 @@
+.about-content{
+    display:flex;
+    margin-top: 300px;
+    margin-bottom:150px;
+}
+.about-images{
+    margin-left: 200px;
+}
+.about-images img{
+    width: 600px;
+    
+}
+.about-texts{
+    margin-top: 70px;
+    margin-left: 50px;
+    padding-right: 200px;
+    font-family: arial, helvetica, sans-serif;
+}
+
+.about-texts-card-wrapper{
+    display:flex;
+}
+.about-text-card{
+    color: white;
+    background-color:rgba(214, 26, 26, 0.808);
+    padding:60px;
+    border-radius:10px 0px 10px 10px;
+    height:250px;
+    width:200px;
+}
+.about-text-list{
+    margin-top: 40px;
+   
+}
+.expert-main{
+    display:flex;
+    height:100vh;
+    color: rgb(40, 40, 80);
+}
+.expert-img img{
+    height: 100vh;
+    width: 105vh;
+}
+.expert-text{
+    background-color:rgba(165, 178, 182, 0.521);
+    padding:100px;
+    
+}
+.expert-content-cards{
+    display: flex;
+}
+.expert-content-card1{
+    height:280px;
+    width:270px;
+    padding-inline: 20px;
+    padding-block: 30px;
+    border-radius:10px;
+    margin-top: 30px;
+    
+}
+.view-details-about{
+    border: none;
+    background-color: rgba(165, 178, 182, 0.521);
+}
+.view-details-about:hover{
+    border: none;
+    background-color: rgba(165, 178, 182, 0.521);
+    color:rgb(214, 24, 24);
+}
+@media only screen and (max-width:688px){
+    .about-content{
+        display:flex;
+        flex-direction:column;
+        margin-top: 50px;
+        margin-bottom:150px;
+    }
+    .about-images{
+        margin-left:0px;
+    }
+
+    .about-texts-card-wrapper{
+        display:flex;
+        flex-direction: column;
+        width:260px;
+    }
+    .about-text-card{
+        color: white;
+        background-color:rgba(214, 26, 26, 0.808);
+        padding:70px;
+        border-radius:10px 0px 10px 10px;
+        height:250px;
+        width:350px;
+    }
+    .about-texts{
+        margin-top: 70px;
+        margin-left: 5px;
+        padding-right: 0px;
+        font-family: arial, helvetica, sans-serif;
+    }
+    .expert-main{
+        display:flex;
+        flex-direction: column;
+        height:100%;
+        width:360px;
+    }
+    .expert-img img{
+        height: 100vh;
+        width: 100%;
+    }
+    .expert-text{
+        background-color:rgba(13, 9, 24, 0.877);
+        padding:30px;
+        color:white;
+    }
+}

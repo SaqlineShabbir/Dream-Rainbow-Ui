@@ -1,0 +1,26 @@
+.single-review-container{
+    padding:20px;
+    min-height:400px;
+    margin-bottom:50px;
+
+}
+.rating{
+    margin-left:160px;
+}
+
+.single-review-container img{
+    height:100px;
+    margin-left:150px;
+    position:relative;
+    bottom:50px;
+}
+
+@media only screen and (max-width:688px){
+    .single-review-container{
+        padding:20px;
+        min-height:400px;
+        margin-bottom:50px;
+        width:360px;
+    
+    }
+}

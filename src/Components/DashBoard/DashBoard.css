@@ -1,0 +1,32 @@
+.dashboard-container{
+    min-height: 80vh;
+    
+}
+.dashboard-navbar{
+    background-color: white;
+    height: 100px;
+   
+}
+
+.dashboard-user img{
+  width: 70px;
+}
+
+.dashboard-links{
+    font-size:18px;
+   
+}
+
+.dashboard-button {
+    border:none ;
+    width:200px;
+    padding: 10px;
+    background-color:rgb(212, 29, 29);
+    color:white;
+    border-radius: 10px 0px 10px 0px;
+    
+}
+
+.dashboard-button:hover {
+    background-color:rgba(0, 33,72);
+}

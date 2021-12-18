@@ -2,10 +2,11 @@ import React, { useState } from 'react';
 import { Spinner } from 'react-bootstrap';
 import { Link, useLocation,useNavigate } from 
 'react-router-dom';
+import img from '../../../Images/login.jpg'
 import './Signup.css'
 import useFirebase from '../../../hooks/useFirebase';
-import img from '../../../Images/about banner.jpg'
 import Swal from 'sweetalert2'
+import Header from '../../Shared/Header/Header';
 const Signup = () => {
     const Swal = require('sweetalert2')
     const {registerUser,isLoading,authError} =useFirebase()
@@ -35,7 +36,7 @@ const Signup = () => {
     }
     return (
         <>
-      
+        <Header></Header>
       { !isLoading && <div className="register">
            
       <div>

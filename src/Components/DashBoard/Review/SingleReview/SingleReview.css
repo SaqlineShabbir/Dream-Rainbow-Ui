@@ -2,10 +2,12 @@
     padding:20px;
     min-height:400px;
     margin-bottom:50px;
+    border-radius:50px 0px;
 
 }
 .rating{
-    margin-left:160px;
+    margin-left:120px;
+    color: yellow;
 }
 
 .single-review-container img{

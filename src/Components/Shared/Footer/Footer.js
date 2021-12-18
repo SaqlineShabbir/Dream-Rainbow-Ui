@@ -6,7 +6,7 @@ const Footer = () => {
         <>
         <div className="footer-container">
             <div className="footer-texts footer-focused">
-                <img src={footerImg} alt=""/> <h2>SS Paint</h2>
+                <img src={footerImg} alt=""/> <h2>Dream Rainbow</h2>
            <p> Emergency Dental Care</p>
            <p>Check Up</p>
            <p>Treatment and Personal Diseases</p>
@@ -17,10 +17,10 @@ const Footer = () => {
 
             <div className="footer-texts">
              <h5>Quick Links</h5>
-             <p> Emergency Dental Care</p>
-           <p>Check Up</p>
-           <p>Treatment and Personal Diseases</p>
-           <p>Tooth Extraction</p>
+             <p> Home</p>
+           <p>About</p>
+           <p>Services</p>
+           <p>contact Us</p>
            <p>Check Up</p>
             </div>
 

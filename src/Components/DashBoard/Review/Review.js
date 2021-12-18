@@ -16,9 +16,13 @@ const Review = () => {
         <>
        
         <div className="reviews-main">
-           <div>
-           <h3 className="text-center mt-5 ">What Our Clients Says <span className="my-color">(Reviews)</span></h3>
-           <div className="hello"><h3>------</h3></div>
+           <div className="review-main-text">
+              <div>
+              <p className="">Reviews</p>
+           <h3 className="">What Our Clients Says</h3>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In sit tempore iste aut deserunt minus ea vel, repellat ipsa consectetur quasi cupiditate voluptates! Quasi pariatur delectus eligendi accusamus labore dicta.</p>
+              </div>
+           
            </div>
         <div className="reviews-container">
     

@@ -17,7 +17,7 @@ const About = () => {
                 </Fade>
                 <Fade right>
                 <div className="about-texts">
-                  <h6 className="Little-sub">About SS Paint</h6>
+                  <h6 className="Little-sub">About Dream Rainbow</h6>
                   <h1>We Elevate The Beauty Of Your Home</h1>
                   <p><i>“Each color evokes different emotions for each individual. Your emotions still depend on your individual life experience and how you associate each color”.</i></p>
                   <div className="about-texts-card-wrapper">

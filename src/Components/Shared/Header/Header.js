@@ -25,11 +25,10 @@ const Header = () => {
         <Nav.Link as={Link} className=" text-danger mx-4 " to="/home">Home</Nav.Link>
         <Nav.Link as={Link} className="" to="/aboutRoute">About</Nav.Link>
         <Nav.Link as={Link} className="mx-4" to="/services">Services</Nav.Link>
-{ !user.email &&   <Nav.Link as={Link} className="text-white fw-bold mx-3 nav-hover" to="/login">Log In</Nav.Link>}
+{/* { !user.email &&   <Nav.Link as={Link} className="text-white fw-bold mx-3 nav-hover" to="/login">Log In</Nav.Link>} */}
        
-        {
-          user?.email && <Nav.Link as={Link} className="  dashboard-link" to="/dashboard">Dash Board</Nav.Link>
-        }
+        <Nav.Link as={Link} className="  dashboard-link" to="/dashboard">Dash Board</Nav.Link>
+        
         
   
        
@@ -47,7 +46,7 @@ const Header = () => {
            
            </div>
        }
-       { !admin&&  <h4 className="ms-4"><i className="fas fa-cart-plus"> {myBookingData?.length}</i></h4>}
+       {/* { !admin &&  <h4 className="ms-4"><i className="fas fa-cart-plus"> {myBookingData?.length}</i></h4>} */}
       </Nav>
     </Navbar.Collapse>
   </Container>

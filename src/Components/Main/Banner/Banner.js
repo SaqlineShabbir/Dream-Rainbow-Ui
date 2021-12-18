@@ -5,7 +5,7 @@ const Banner = () => {
         <div>
         <div className="banner" >
         <div className="banner-text ">
-            <p>SS Painting & Wallpapering</p>
+            <p>Dream Rainbow Painting & Wallpapering</p>
         <h2 className="fw-bolder">We Make Your Walls More Colorful</h2>
            <p> We sell dreams . SS car deals always here to help you. We operate under the principles of doing business fairly and with the understanding that our customers are the lifeblood of the business. Much of our success comes from the relationships formed with buyers and sellers around the world who have joined us on this incredible journey and made ss car deals rapid growth possible. </p>
         </div>

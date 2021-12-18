@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import { Spinner } from 'react-bootstrap';
 import { Link,useNavigate,useLocation } from 'react-router-dom';
-import useFirebase from '../../../hooks/useFirebase';
-import img from '../../../Images/about banner.jpg'
+import img from '../../../Images/login.jpg'
 import './Login.css'
 import Swal from 'sweetalert2'
+import useAuth from '../../../hooks/useAuth';
+import Header from '../../Shared/Header/Header';
 const Login = () => {
-    const {loginUser,user,isLoading, authError} = useFirebase()
+    const {loginUser,user,isLoading, authError} = useAuth()
    const [loginData, setLoginData] = useState({})
    const navigate = useLocation();
    const history = useNavigate()
@@ -29,7 +30,7 @@ const Login = () => {
     }
     return (
         <>
-        
+        <Header></Header>
        { !isLoading && <div className="register">
         <div>
             <img src={img} alt="" />
@@ -49,7 +50,7 @@ const Login = () => {
 
                 <input className="register-button mt-2 w-100" type="submit" value="Log In" />
             </form>
-            <p className="my-3">New To SS CAR DEALS? <Link to="/register">Sign Up</Link></p>
+            <p className="my-3">New To Dream Rainbow? <Link to="/signup">Sign Up</Link></p>
          {/* <button onClick={handleGoogleLogIn} className="register-button w-100 "><i class="fab fa-google"></i> Sign In with Google</button> */}
         </div>
     </div>

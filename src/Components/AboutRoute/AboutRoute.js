@@ -21,7 +21,7 @@ const AboutRoute = () => {
 
               <div className="about-route-content-wrapper">
                   <div className="about-route-content-first">
-                      <p className="Little-sub">About Dyelex</p>
+                      <p className="Little-sub">About Dream Rainbow</p>
                       <h1 className="fw-bolder">We Elevate The Beauty Of Your Home</h1>
                       <p><i>“Each color evokes different emotions for each individual. Your emotions still depend on your individual life experience and how you associate each color”.</i></p>
                       <div>

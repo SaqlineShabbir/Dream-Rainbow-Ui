@@ -83,7 +83,7 @@ const useFirebase = () =>{
 
    const saveUser = (email, displayName) => {
       const user = { email, displayName }
-      fetch('http://localhost:5000/users', {
+      fetch('https://polar-springs-14002.herokuapp.com/users', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json'},
         body: JSON.stringify(user)
@@ -92,7 +92,7 @@ const useFirebase = () =>{
    }
 
    useEffect(()=>{
-     fetch(`http://localhost:5000/users/${user.email}`)
+     fetch(`https://polar-springs-14002.herokuapp.com/users/${user.email}`)
      .then(res => res.json())
      .then(data =>{setAdmin(data.admin)
        
@@ -101,7 +101,7 @@ const useFirebase = () =>{
 
    const [myBookingData, setMyBookingData] =useState([])
    useEffect(()=>{
-       fetch(`http://localhost:5000/myBooking/${user?.email}`)
+       fetch(`https://polar-springs-14002.herokuapp.com/myBooking/${user?.email}`)
        .then(res => res.json())
        .then(data =>{
            console.log(data)

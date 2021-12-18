@@ -5,7 +5,7 @@ import './ManageServices.css'
 const ManageServices = () => {
     const [manageCars, setManageCars] = useState([])
     useEffect(()=>{
-        fetch('http://localhost:5000/allService')
+        fetch('https://polar-springs-14002.herokuapp.com/allService')
         .then(res => res.json())
         .then(data =>{ 
             console.log(data)
@@ -16,7 +16,7 @@ const ManageServices = () => {
         const proceed =window.confirm('Are you sure you want to delete?')
         if(proceed) {
   
-          const url = (`http://localhost:5000/service/${id}`)
+          const url = (`https://polar-springs-14002.herokuapp.com/service/${id}`)
           fetch(url, {
               method: 'DELETE'
           })

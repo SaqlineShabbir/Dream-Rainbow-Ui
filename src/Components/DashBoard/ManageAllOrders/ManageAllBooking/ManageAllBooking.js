@@ -5,7 +5,7 @@ import './ManageAllBooking.css'
 const ManageAllBooking = () => {
     const [allbooking, setAllbooking] =useState([])
     useEffect(()=>{
-        fetch('http://localhost:5000/booking')
+        fetch('https://polar-springs-14002.herokuapp.com/booking')
         .then(res=> res.json())
         .then(data => setAllbooking(data))
     },[])

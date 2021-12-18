@@ -12,7 +12,7 @@ const ShowAllBooking = (props) => {
   }
     const { register, handleSubmit } = useForm();
     const onSubmit = data =>{
-        fetch(`http://localhost:5000/statusUpdate/${orderId}`, { 
+        fetch(`https://polar-springs-14002.herokuapp.com/statusUpdate/${orderId}`, { 
             method: 'PuT',
             headers: { 'Content-Type': 'application/json'},
             body: JSON.stringify(data)

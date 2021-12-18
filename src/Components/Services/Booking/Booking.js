@@ -11,7 +11,7 @@ const PlaceOrder = () => {
     const {serviceId} = useParams();
     const [services,setServices]=useState([])
     useEffect(()=>{
-        fetch('http://localhost:5000/services')
+        fetch('https://polar-springs-14002.herokuapp.com/services')
         .then(res => res.json())
         .then(data =>{ 
              console.log(data)
@@ -26,7 +26,7 @@ const PlaceOrder = () => {
     const { register, handleSubmit, reset } = useForm();
     const onSubmit = data => {
         data.status= "pending";
-        fetch('http://localhost:5000/booking', {
+        fetch('https://polar-springs-14002.herokuapp.com/booking', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json'},
             body:JSON.stringify(data)

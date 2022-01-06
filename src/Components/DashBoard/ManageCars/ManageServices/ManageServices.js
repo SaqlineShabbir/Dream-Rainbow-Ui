@@ -34,7 +34,7 @@ const ManageServices = () => {
     }
     return (
         <>
-        <Header></Header>
+        
         <div className="manage-services-main">
        <h3 className="text-center pt-5">You can Delete Cars</h3>
         <div className="services-container">

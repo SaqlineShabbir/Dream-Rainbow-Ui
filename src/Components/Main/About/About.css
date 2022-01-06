@@ -77,6 +77,9 @@
     .about-images{
         margin-left:0px;
     }
+    .about-images img{
+        width:360px;
+    }
 
     .about-texts-card-wrapper{
         display:flex;

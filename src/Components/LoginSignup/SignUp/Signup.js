@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { Spinner } from 'react-bootstrap';
-import { Link, useLocation,useNavigate } from 
+import { Link,useNavigate } from 
 'react-router-dom';
-import img from '../../../Images/login.jpg'
-import './Signup.css'
+import img from '../../../Images/login.jpg';
+import './Signup.css';
 import useFirebase from '../../../hooks/useFirebase';
 import Swal from 'sweetalert2'
 import Header from '../../Shared/Header/Header';

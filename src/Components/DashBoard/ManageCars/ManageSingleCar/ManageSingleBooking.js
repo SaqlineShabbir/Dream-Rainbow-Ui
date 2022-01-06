@@ -4,7 +4,7 @@ import React from 'react';
 const ManageSingleBooking = (props) => {
     const {img,name,description,number,_id} = props.manageCar
     return (
-        <div className="car-container">
+        <div className="car-container ">
         <img src={img} alt="" />
         <div className="car-text">
         <h3 className="">{name}</h3>

@@ -11,7 +11,7 @@ const ManageAllBooking = () => {
     },[])
     return (
         <>
-        <Header></Header>
+        
         <div className="manageAllBooking-container">
         {
             allbooking?.map(singleOrder => <ShowAllBooking  key={singleOrder._id._id} singleOrder={singleOrder}></ShowAllBooking>)

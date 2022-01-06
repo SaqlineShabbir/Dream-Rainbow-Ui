@@ -27,7 +27,7 @@ const MakeAdmin = () => {
     }
     return (
         <>
-        <Header></Header>
+     
         <div className="makeAdmin-container">
             <h3 className="pt-5 text-center">You Can Make SomeOne Admin</h3>
             <form className="makeAdmin-from" onSubmit={handleSubmit(onSubmit)}>

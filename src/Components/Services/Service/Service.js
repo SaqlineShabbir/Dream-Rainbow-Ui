@@ -13,7 +13,7 @@ const Service = ({service}) => {
             {description}<br/>
 
            </div>
-          <Link to={`/serviceDetails/${_id}`}><button className="service-button">Details <i className="fas fa-angle-double-right"></i></button></Link>
+          <Link to={`/serviceDetails/${_id}`}><button className="service-button">Book Now <i className="fas fa-angle-double-right"></i></button></Link>
         </div>
         </Fade>
     );

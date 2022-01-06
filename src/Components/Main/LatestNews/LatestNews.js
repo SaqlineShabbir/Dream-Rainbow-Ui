@@ -1,7 +1,7 @@
 import React from 'react';
 import   './LatestNews.css'
 import img from '../../../Images/banner2.jpg'
-
+import Fade from 'react-reveal/Fade';
 import paint from '../../../Images/painting.PNG'
 import celling from '../../../Images/Celling.PNG'
 
@@ -21,15 +21,19 @@ const LatestNews = () => {
            </div>
             <div className="latest-news-card-wrapper">
               <div className="latest-news-card">
+      <Fade left>          
     <div className="card">
   <img src={celling} className="card-img-top" alt="..."/>
+  
   <div className="card-body">
     <h5>Creative Ways To Paint A Ceiling</h5>
     <small className="small">3 june 2021</small>
     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <button className="read-more-btn">Read More  <i class="fas fa-angle-double-right"></i></button>
   </div>
+  
 </div>
+</Fade>
               </div>
               <div className="latest-news-card">
               <div className="card">
@@ -42,6 +46,7 @@ const LatestNews = () => {
   </div>
 </div>
               </div>
+              <Fade right>  
               <div className="recent-news-main">
                 
                  <h5 className="mb-4">Rcent News</h5>
@@ -80,6 +85,7 @@ const LatestNews = () => {
 
                  </div>
               </div>
+              </Fade>
             </div>
         </div>
     );

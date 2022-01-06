@@ -1,8 +1,10 @@
 import React from 'react';
 import './Subscribe.css'
+import Fade from 'react-reveal/Fade';
 const Subscribe = () => {
     return (
       <div>
+        <Fade bottom>
       <div className="Subscribe-container">
                   <div className="Subscribe">
            <div className="Subscribe-text">
@@ -15,6 +17,7 @@ const Subscribe = () => {
 </div>
         </div>
       </div>
+      </Fade>
       </div>
     );
 };

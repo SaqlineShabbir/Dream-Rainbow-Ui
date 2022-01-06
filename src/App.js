@@ -28,6 +28,9 @@ import MyBooking from './Components/DashBoard/MyOrders/MyBooking';
 import ManageServices from './Components/DashBoard/ManageCars/ManageServices/ManageServices';
 import ManageAllBooking from './Components/DashBoard/ManageAllOrders/ManageAllBooking/ManageAllBooking';
 import AboutRoute from './Components/AboutRoute/AboutRoute';
+import Payment from './Components/DashBoard/Payment/Payment';
+
+import Dashboard from './Components/DashBoard/Dashboard';
 function App() {
   return (
      <AuthProvider>
@@ -57,24 +60,28 @@ function App() {
       </Routes>
       <Routes>
 
-        <Route path="/dashboard" element={<PrivateRoute><DashBoard /></PrivateRoute>} />
+        <Route path="/dashboard" element={<PrivateRoute><Dashboard /></PrivateRoute>}>
         
-        {/* <Route exact path="/dashboard/" element={<DashBoardHome/>}/> */}
+               {/* <Route exact path="/dashboard/" element={<DashBoardHome/>}/> */}
         
-        <Route path={`/dashboard/myBooking`} element={<MyBooking/>}/>
+               <Route path={`/dashboard/myBooking`} element={<MyBooking/>}/>
           
-        <Route  path={`/dashboard/makeAdmin`} element={<AdminRoute><MakeAdmin/></AdminRoute> }/>
-          
+               <Route  path={`/dashboard/makeAdmin`} element={<AdminRoute><MakeAdmin/></AdminRoute> }/>
+                 
+               
+               <Route  path={`/dashboard/manageAllBooking`} element={<ManageAllBooking/>}/>
+                 
+               <Route  path={`/dashboard/addservice`} element={<AdminRoute><AddService/></AdminRoute> }/>
+               
+               <Route  path={`/dashboard/addreview`} element={ <AddReview/>}/>
+               <Route  path={`/dashboard/payment`} element={ <Payment/>}/>
+                 
+               
+               <Route  path={`/dashboard/manageServices`} element={<AdminRoute><ManageServices/></AdminRoute>}/>
         
-        <Route  path={`/dashboard/manageAllBooking`} element={<ManageAllBooking/>}/>
-          
-        <Route  path={`/dashboard/addservice`} element={<AdminRoute><AddService/></AdminRoute> }/>
+               </Route> 
         
-        <Route  path={`/dashboard/addreview`} element={ <AddReview/>}/>
-        {/* <Route  path={`/dashboard/payment`} elemrnt={ <Payment/>}/> */}
-          
-        
-        <Route  path={`/dashboard/manageServices`} element={<AdminRoute><ManageServices/></AdminRoute>}/>
+ 
           
         
       </Routes>
@@ -82,8 +89,10 @@ function App() {
       <Routes>
           <Route path="/serviceDetails/:serviceId" element={<PrivateRoute><Booking/></PrivateRoute>} />
         </Routes>
+
+
     </div>
-     <Footer></Footer>
+     
   </BrowserRouter>
      </AuthProvider>
   );

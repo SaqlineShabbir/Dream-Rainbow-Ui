@@ -51,6 +51,8 @@ const Login = () => {
                 <input className="register-button mt-2 w-100" type="submit" value="Log In" />
             </form>
             <p className="my-3">New To Dream Rainbow? <Link to="/signup">Sign Up</Link></p>
+            <p>Admin : admin@admin.com</p>
+            <p>password: 123456</p>
          {/* <button onClick={handleGoogleLogIn} className="register-button w-100 "><i class="fab fa-google"></i> Sign In with Google</button> */}
         </div>
     </div>

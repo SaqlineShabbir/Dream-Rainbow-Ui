@@ -57,8 +57,8 @@ const PlaceOrder = () => {
             </div>
             <div className="services-card-main">
               <div className="services-card">
-               <h1>Place Order</h1>
-               <p>Services - place order</p>
+               <h1>Booking</h1>
+               <p>Services - Booking</p>
             </div>
               </div>
               <div className="booking-details">

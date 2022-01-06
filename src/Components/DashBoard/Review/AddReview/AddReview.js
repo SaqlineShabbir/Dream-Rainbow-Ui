@@ -33,7 +33,7 @@ const AddReview = () => {
 
     return (
         <>
-        <Header></Header>
+       
         <div className="AddReview">
         <h4 className="mt-5 text-center">You Can Add A Review Here</h4>
         <form onSubmit={handleSubmit(onSubmit)}>

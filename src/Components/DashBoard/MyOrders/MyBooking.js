@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import useAuth from '../../../hooks/useAuth';
 import Header from '../../Shared/Header/Header';
-
+import Swal from 'sweetalert2'
 import './MyBooking.css'
 import MySingleOrder from './MySingleOrder/MySingleBooking';
 const MyBooking = () => {
@@ -17,6 +17,9 @@ const MyBooking = () => {
       console.log(myAllBooking)
       const handleDelete=(id) => {
         const proceed =window.confirm('Are you sure you want to delete?')
+        
+
+        
         if(proceed) {
   
           const url = (`https://polar-springs-14002.herokuapp.com/order/${id}`)

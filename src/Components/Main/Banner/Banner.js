@@ -7,7 +7,7 @@ const Banner = () => {
         <div className="banner-text ">
             <p>Dream Rainbow Painting & Wallpapering</p>
         <h2 className="fw-bolder">We Make Your Walls More Colorful</h2>
-           <p> We sell dreams . SS car deals always here to help you. We operate under the principles of doing business fairly and with the understanding that our customers are the lifeblood of the business. Much of our success comes from the relationships formed with buyers and sellers around the world who have joined us on this incredible journey and made ss car deals rapid growth possible. </p>
+           <p> We paint dreams. Dream Rainbow always here to help you. We operate under the principles of doing business fairly and with the understanding that our customers are the lifeblood of the business. Much of our success comes from the relationships formed with buyers and sellers around the world who have joined us on this incredible journey and made Dream Rainbow rapid growth possible. </p>
         </div>
        </div>
        <div className="banner-card">

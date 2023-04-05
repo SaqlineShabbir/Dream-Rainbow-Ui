@@ -1,65 +1,33 @@
-.Subscribe-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color:rgba(0, 33,72);
-    width: 1240px;
-    height: 300px;
-    border-radius: 10px 20px 30px 0px;
-    margin-left: 190px;
-    position:relative;
-    top:120px;
- }
+.Subscribe-container {
+  background-color: rgba(0, 33, 72);
+  position: relative;
+  margin-top: 50px;
+  border-radius: 10px 20px 30px 0px;
+}
 
-.Subscribe{
-    display: flex;
-    height: 200px;
-    padding:70px;
-  
-   
+.Subscribe-text {
+  color: white;
+  width: 50%;
 }
-.Subscribe-text{
-   color: white;
-   width: 50%;
+.subscribe-input input {
+  margin-top: 20px;
+  border-radius: 10px 10px 0px 10px;
+  height: 70px;
+  margin-right: 30px;
 }
-.subscribe-input input{
-    margin-top: 20px;
-    border-radius: 10px 10px 0px 10px;
-    height: 70px;
-    margin-right: 30px;
-}
-.subscribe-input{
-   width: 50%;
+.subscribe-input {
+  width: 50%;
 }
 .subscribe-btn {
-    height: 70px;
-    width: 170px;
-    margin-top: 20px;
-    border-radius: 10px 10px 0px 10px;
-    background-color:rgb(228, 15, 15);
-    
+  height: 70px;
+  width: 170px;
+  margin-top: 20px;
+  border-radius: 10px 10px 0px 10px;
+  background-color: rgb(228, 15, 15);
 }
 
-
-@media only screen and (max-width:688px){
-    .Subscribe-container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color:rgba(0, 33,72);
-        width: 360px;
-        height: 500px;
-        border-radius: 10px 20px 30px 0px;
-        margin-left: 0px;
-        position:relative;
-        top:20px;
-     }
-     .Subscribe{
-        display: flex;
-        flex-direction:column;
-        height: 200px;
-        padding:10px;
-      
-       
-    }
+@media only screen and (max-width: 688px) {
+  .Subscribe-container {
+    display: none;
+  }
 }

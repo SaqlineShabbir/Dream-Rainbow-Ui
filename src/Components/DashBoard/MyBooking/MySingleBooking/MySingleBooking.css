@@ -1,0 +1,19 @@
+.my-booking-content {
+  border: 1px solid gray;
+  display: flex;
+  font-family: candara;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+}
+.my-booking-content img {
+  width: 100px;
+}
+.cancel-btn {
+  border: none;
+
+  color: black;
+}
+.cancel-btn:hover {
+  color: rgba(231, 25, 25, 0.815);
+}

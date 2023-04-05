@@ -1,62 +1,55 @@
-.banner{
+.banner {
+  height: 90vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: auto;
+
+  background: url(../../../Images/Banner.jpg) no-repeat center center;
+  background-size: cover;
+}
+.banner-text {
+  width: 900px;
+  color: white;
+  padding-block: 200px;
+  padding-inline: 100px;
+}
+
+.banner-card {
+  width: 40%;
+  background-color: rgba(0, 33, 72);
+  color: white;
+  position: relative;
+  bottom: 100px;
+
+  left: 60%;
+  padding: 70px;
+}
+
+@media only screen and (max-width: 688px) {
+  .banner {
     height: 90vh;
     width: 100%;
     background-repeat: no-repeat;
     background-size: auto;
 
-    background: url(../../../Images/Banner.jpg) no-repeat center center ;
-  background-size: cover;
-    
-}
-.banner-text {
-    
-    width:900px;
-    color: white;
-    padding-block:200px;
-    padding-inline: 100px;
-    
-  }
-
-
-  .banner-card{
-      width: 40%;
-      background-color:rgba(0, 33,72);
-      color: white;
-      position: absolute;
-      top: 660px;
-      
-      left: 60%;
-      padding:70px;
-  }
-  
-  @media only screen and (max-width:688px){
-
-    .banner{
-      height: 90vh;
-      width: 360px;
-      background-repeat: no-repeat;
-      background-size: auto;
-  
-      background: url(../../../Images/Banner.jpg) no-repeat center center ;
+    background: url(../../../Images/Banner.jpg) no-repeat center center;
     background-size: cover;
-      
   }
   .banner-text {
     font-weight: bold;
-    width:100%;
+    width: 100%;
     color: white;
-    padding-block:100px;
+    padding-block: 100px;
     padding-inline: 20px;
-    
   }
-  .banner-card{
+  .banner-card {
     width: 40%;
-    background-color:rgba(0, 33,72);
+    background-color: rgba(0, 33, 72);
     color: white;
     position: absolute;
     top: 660px;
     display: none;
     left: 60%;
-    padding:70px;
-}
+    padding: 70px;
   }
+}

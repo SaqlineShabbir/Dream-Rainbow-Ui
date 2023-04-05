@@ -4,6 +4,7 @@ import Header from '../Shared/Header/Header';
 import './AboutRoute.css'
 import img from '../../Images/painting.PNG'
 import whyChooseUs from '../../Images/whyChooseUsImg.PNG'
+import Footer from '../Shared/Footer/Footer'
 const AboutRoute = () => {
     return (
         <>
@@ -100,6 +101,7 @@ const AboutRoute = () => {
                   </div>
               </div>
         </div>
+        <Footer></Footer>
         </>
     );
 };
